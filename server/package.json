@@ -1,0 +1,24 @@
+{
+  "name": "theluvingifts-server",
+  "version": "1.0.0",
+  "description": "Backend server for The Luvin Gifts order management",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "googleapis": "^128.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": ["express", "google-sheets", "order-management"],
+  "author": "The Luvin Gifts",
+  "license": "MIT"
+}
+
+
