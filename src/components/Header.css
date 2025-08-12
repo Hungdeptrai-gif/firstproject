@@ -1,0 +1,60 @@
+/* Header tổng thể */
+.header {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+    padding: 12px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Logo */
+  .header-logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Menu */
+  .header-menu {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .header-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .header-menu a:hover {
+    color: #ff6b6b;
+  }
+  
+  /* Nút bên phải */
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .header-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .header-actions button:hover {
+    color: #ff6b6b;
+  }
+  
