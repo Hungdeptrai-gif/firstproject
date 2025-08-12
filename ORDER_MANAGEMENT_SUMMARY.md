@@ -179,3 +179,4 @@ npm run server:dev # Backend
 Follow the setup guide to complete the Google Sheets integration and start managing orders like a pro!
 
 
+
